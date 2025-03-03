@@ -87,7 +87,11 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
 }
@@ -172,25 +176,36 @@ img {
 @media screen and (max-width: 992px) {
     .container {
         /* Add space from the side of the content to the screen edge */
-        margin-left: var(--mb-1-5); 
+        margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
+    }
+
+    .button {
+        padding: 1rem 1.75rem;
+    }
+
+    .button__icon {
+        width: 22px;
+        height: 22px;
     }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-}
-
-/* For normal devices */
-@media screen and (max-width: 576px) {
+    .section {
+        padding: 2rem 0 2rem 4rem;
+    }
+    
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+    :root {
+        --big-font-size: 2.25rem;
+    }
     .container {
         /* Add space from the side of the content to the screen edge */
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
 }
-
