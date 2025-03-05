@@ -1,6 +1,69 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Data = () => {
+
+    //List of words to display
+    const toRotate = [", Software Developer", ", Fullstack Developer"];
+
+    //Loop number, set to 0, will be used to loop through the words based on the index
+    const [loopNum, setLoopNum] = useState(0);
+
+    //State to indicate if we are typing the words or deleteing them
+    const [isDeleting, setIsDeleting] = useState(false);
+
+    //State to hold the word being typed
+    const [text, setText] = useState("");
+
+    //Time btween each letter being typed
+    const [delta, setDelta] = useState(300 - Math.random() * 100);
+
+    const tick = () => {
+        //index of the word to type
+        let i = loopNum % toRotate.length;
+
+        //Current word
+        let fullText = toRotate[i];
+
+        //Check if we are typing or deleting
+        if (isDeleting) {
+            //Remove the last letter
+            let deletedTypedText = fullText.substring(0, text.length - 1);
+            setText(deletedTypedText);
+
+            //If we are deleting we want to update the delta to be faster
+            setDelta(100 - Math.random() * 100);
+
+            //If we are done deleting the word, we want to start typing the next word
+            if (deletedTypedText === "") {
+                setIsDeleting(false);
+                setLoopNum(loopNum + 1);
+                setDelta(300 - Math.random() * 100);
+            }
+        } else {
+            //Add the next letter
+            let updatedTypedText = fullText.substring(0, text.length + 1);
+            setText(updatedTypedText);
+
+            //If we are done typing the word, we want to start deleting
+            if(updatedTypedText === fullText){
+                setIsDeleting(true);
+                setDelta(2000);
+            }
+        }
+    };
+
+    //The actual function that will be called to type the words every time the text changes
+    useEffect(() => {
+        let ticker = setInterval(() => {
+            tick();
+        }, delta);
+
+        return () => {
+
+            clearInterval(ticker);
+        }
+    }, [text]);
+
     return (
         <div className="home__data">
             <h1 className="home__title">
@@ -55,7 +118,7 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Software Developer</h3>
+            <h3 className="home__subtitle">Christian Kangaji{text}</h3>
             <p className="home__description">I am a Developer based in Stockholm, Sweden. I am passionate about coding and I love to learn new things.</p>
             <a href="#contact" className="button button__flex">
                 Say Hello

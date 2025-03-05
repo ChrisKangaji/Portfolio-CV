@@ -17,7 +17,7 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        Fullstack Developer. I have years of experience in software development and I am always up for new challenges. I am a team player and looking to learn new things.
+                    I'm a Fullstack Developer with years of experience in software development. I am a team player that is always chasing after new challenges and looking to learn new things.
                     </p>
 
                     <a download="" href={CV} className="button button__flex">
