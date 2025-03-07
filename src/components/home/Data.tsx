@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import HomeText from './homeText.json';
 
 const Data = () => {
 
@@ -17,6 +18,9 @@ const Data = () => {
     //Time btween each letter being typed
     const [delta, setDelta] = useState(300 - Math.random() * 100);
 
+    // State to control blinking cursor
+    const [isBlinking, setIsBlinking] = useState(false); 
+
     const tick = () => {
         //index of the word to type
         let i = loopNum % toRotate.length;
@@ -26,6 +30,7 @@ const Data = () => {
 
         //Check if we are typing or deleting
         if (isDeleting) {
+            setIsBlinking(false);
             //Remove the last letter
             let deletedTypedText = fullText.substring(0, text.length - 1);
             setText(deletedTypedText);
@@ -46,6 +51,7 @@ const Data = () => {
 
             //If we are done typing the word, we want to start deleting
             if(updatedTypedText === fullText){
+                setIsBlinking(true);
                 setIsDeleting(true);
                 setDelta(2000);
             }
@@ -67,7 +73,7 @@ const Data = () => {
     return (
         <div className="home__data">
             <h1 className="home__title">
-                Hi, I'm Chris
+                {HomeText.title}
                 <svg
                     width="36"
                     height="36"
@@ -118,8 +124,8 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Christian Kangaji{text}</h3>
-            <p className="home__description">I am a Developer based in Stockholm, Sweden. I am passionate about coding and I love to learn new things.</p>
+            <h3 className="home__subtitle">{HomeText.subtitle}{text}{isBlinking ? <span className="blinking-cursor">|</span> : <span>|</span>}</h3>
+            <p className="home__description">{HomeText.description}</p>
             <a href="#contact" className="button button__flex">
                 Say Hello
                 <svg

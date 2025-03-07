@@ -1,26 +1,27 @@
 import React from 'react';
+import HomeText from './homeText.json';
 
 const Social = () => {
   return (
     <div className="home__social">
-        <a href="" className="home__social-icon" target="_blank">
-            <i className="uil uil-instagram"></i>
-        </a>
-
-        <a href="" className="home__social-icon" target="_blank">
+        <a href={HomeText.linkedInLink} className="home__social-icon" target="_blank">
             <i className="uil uil-linkedin"></i>
         </a>
 
-        <a href="" className="home__social-icon" target="_blank">
+        <a href={HomeText.gitHubLink} className="home__social-icon" target="_blank">
             <i className="uil uil-github"></i>
         </a>
 
-        <a href="" className="home__social-icon" target="_blank">
+        <a href={HomeText.gitLabLink} className="home__social-icon" target="_blank">
             <i className="uil uil-gitlab"></i>
         </a>
 
-        <a href="" className="home__social-icon" target="_blank">
+        <a href={HomeText.dockerLink} className="home__social-icon" target="_blank">
             <i className="uil uil-docker"></i>
+        </a>
+
+        <a href={HomeText.instagramLink} className="home__social-icon" target="_blank">
+            <i className="uil uil-instagram"></i>
         </a>
     </div>
   )

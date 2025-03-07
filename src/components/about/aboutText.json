@@ -1,0 +1,19 @@
+{
+    "title": "About Me",
+    "subtitle": "My introduction",
+    "description": "I'm a Fullstack Developer with years of experience in software development. I am a team player that is always chasing after new challenges and looking to learn new things.",
+    "aboutBoxes": {
+        "box1": {
+            "title": "Experience",
+            "description": "7 Years Working"
+        },
+        "box2": {
+            "title": "Completed",
+            "description": "50+ Projects"
+        },
+        "box3": {
+            "title": "Support",
+            "description": "24/7"
+        }
+    }
+}
