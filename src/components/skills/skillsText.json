@@ -1,0 +1,37 @@
+{
+    "skills": {
+        "title": "Skills",
+        "subtitle": "My technical level"
+    },
+    "skillsLevel": {
+        "basic": "Basic",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+    },
+    "frontEnd": {
+        "title": "Frontend Developer",
+        "skillsName": {
+            "typeScript": "TypeScript",
+            "css": "CSS",
+            "javaScript": "JavaScript",
+            "react": "React.js",
+            "msPP": "MS Power Platform",
+            "html5": "HTML5",
+            "liquid": "Liquid",
+            "bootstrap": "Bootstrap"
+        }
+    },
+    "backEnd": {
+        "title": "Backend Developer",
+        "skills": {
+            "cSharp": "C#",
+            "java": "Java",
+            "python": "Python",
+            "azure": "MS Azure",
+            "sql": "MySQL",
+            "dotNet": ".NET",
+            "devOps": "DevOps",
+            "firebase": "Firebase"
+        }
+    }
+}

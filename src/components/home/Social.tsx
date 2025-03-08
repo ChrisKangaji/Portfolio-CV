@@ -1,4 +1,3 @@
-import React from 'react';
 import HomeText from './homeText.json';
 
 const Social = () => {

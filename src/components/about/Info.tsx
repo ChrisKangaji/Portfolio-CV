@@ -1,4 +1,3 @@
-import React from 'react';
 import AboutText from './aboutText.json';
 
 const Info = () => {
