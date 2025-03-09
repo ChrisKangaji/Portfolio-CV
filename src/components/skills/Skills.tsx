@@ -1,4 +1,4 @@
-import './Skills.css';
+import './skills.css';
 import Frontend from './Frontend';
 import Backend from './Backend';
 import SkillsText from './skillsText.json';
