@@ -48,14 +48,6 @@ const Backend = () => {
                 </div>
 
                 <div className="skills__group">
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills__name">{SkillsText.backEnd.skills.dotNet}</h3>
-                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
-                        </div>
-                    </div>
 
                     <div className="skills__data">
                         <i className='bx bx-badge-check'></i>
@@ -81,6 +73,15 @@ const Backend = () => {
 
                         <div>
                             <h3 className="skills__name">{SkillsText.backEnd.skills.firebase}</h3>
+                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">{SkillsText.backEnd.skills.restApi}</h3>
                             <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
                         </div>
                     </div>

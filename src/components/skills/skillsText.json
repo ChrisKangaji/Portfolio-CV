@@ -24,12 +24,12 @@
     "backEnd": {
         "title": "Backend Developer",
         "skills": {
-            "cSharp": "C#",
+            "cSharp": "C#/.NET",
             "java": "Java",
             "python": "Python",
             "azure": "MS Azure",
             "sql": "MySQL",
-            "dotNet": ".NET",
+            "restApi": "RESTful APIs",
             "devOps": "DevOps",
             "firebase": "Firebase"
         }

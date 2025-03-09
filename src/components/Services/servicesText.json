@@ -1,0 +1,37 @@
+{
+    "title": "Services",
+    "subtitle": "What i offer",
+    "button": "View More",
+    "servicesBoxes": {
+        "box1": {
+            "title": "Technical\nServices",
+            "modalTitle": "Technical Services",
+            "modalDesc": "Technical Expertise in Software Development, System Design, and Agile Methodologies",
+            "modalService1": "Experience in software development principles focused on creating manageable and scalable solutions.",
+            "modalService2": "Understanding of system design, data structures, and methodologies within agile development teams (e.g., Scrum).",
+            "modalService3": "Engage in code reviews, both providing and receiving critical technical feedback.",
+            "modalService4": "Understanding customers' challenges and formulating technical solutions in a clear and simple way.",
+            "modalService5": "Understanding of Windows OS family, software deployment, and OOP principles."
+        },
+        "box2": {
+            "title": "Professional\nServices",
+            "modalTitle": "Professional and Interpersonal\nServices",
+            "modalDesc": "Strong Interpersonal and Professional Skills for Effective Collaboration, Communication, and Results-Driven Performance.",
+            "modalService1": "Excellent teamwork abilities and a proven track record of fostering a positive work environment to achieve shared goals.",
+            "modalService2": "Attention to detail, a passion for skill improvement, responsibility and punctuality.",
+            "modalService3": "Strong ability to work independently, plan, and drive the work forward to achieve results in a pragmatic manner.",
+            "modalService4": "Strong communication skills and can explain technical solutions to both technical and non-technical audiences.",
+            "modalService5": "Fluent in Swedish and English, both verbally and in writing."
+        },
+        "box3": {
+            "title": "Third\nServices",
+            "modalTitle": "Third Service Group",
+            "modalDesc": "Description of service group.",
+            "modalService1": "First service",
+            "modalService2": "Second service",
+            "modalService3": "Third service",
+            "modalService4": "Fourth service",
+            "modalService5": "Fifth service"
+        }
+    }
+}
