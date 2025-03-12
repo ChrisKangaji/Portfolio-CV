@@ -1,4 +1,4 @@
-import SkillsText from './skillsText.json';
+import SkillsJSON from './skills.json';
 
 const Frontend = () => {
     return (
@@ -6,7 +6,7 @@ const Frontend = () => {
 
             <div className="skills__title__data">
                 <i className='bx bx-desktop' ></i>
-                <h3 className="skills__title">{SkillsText.frontEnd.title}</h3>
+                <h3 className="skills__title">{SkillsJSON.frontEnd.title}</h3>
             </div>
 
             <div className="skills__box">
@@ -15,8 +15,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">{SkillsText.frontEnd.skillsName.typeScript}</h3>
-                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.typeScript}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
                         </div>
                     </div>
 
@@ -24,8 +24,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">{SkillsText.frontEnd.skillsName.javaScript}</h3>
-                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.javaScript}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
                         </div>
                     </div>
 
@@ -33,8 +33,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">{SkillsText.frontEnd.skillsName.react}</h3>
-                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.react}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
                         </div>
                     </div>
 
@@ -42,8 +42,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">{SkillsText.frontEnd.skillsName.msPP}</h3>
-                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.msPP}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
                         </div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">{SkillsText.frontEnd.skillsName.html5}</h3>
-                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.html5}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
                         </div>
                     </div>
 
@@ -62,8 +62,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">{SkillsText.frontEnd.skillsName.liquid}</h3>
-                            <span className="skills__level">Basic</span>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.liquid}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.basic}</span>
                         </div>
                     </div>
 
@@ -71,8 +71,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">{SkillsText.frontEnd.skillsName.css}</h3>
-                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.css}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
                         </div>
                     </div>
 
@@ -80,8 +80,8 @@ const Frontend = () => {
                         <i className='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">{SkillsText.frontEnd.skillsName.bootstrap}</h3>
-                            <span className="skills__level">{SkillsText.skillsLevel.intermediate}</span>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.bootstrap}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
                         </div>
                     </div>
                 </div>

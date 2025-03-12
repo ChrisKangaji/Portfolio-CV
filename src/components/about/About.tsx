@@ -2,13 +2,13 @@ import './about.css';
 import AboutImg from '../../assets/ChrisKangaji_about.jpg';
 import CV from '../../assets/ChristianKangaji_Cv.pdf';
 import Info from './Info';
-import AboutText from './aboutText.json';
+import AboutJSON from './about.json';
 
 const About = () => {
     return (
         <section className="section about" id="about">
-            <h2 className="section__title">{AboutText.title}</h2>
-            <span className="section__subtitle">{AboutText.subtitle}</span>
+            <h2 className="section__title">{AboutJSON.title}</h2>
+            <span className="section__subtitle">{AboutJSON.subtitle}</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt="" className="about__img" />
@@ -17,7 +17,7 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        {AboutText.description}
+                        {AboutJSON.description}
                     </p>
 
                     <a download="" href={CV} className="button button__flex">

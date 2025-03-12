@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import HomeText from './homeText.json';
+import HomeJSON from './home.json';
 
 const Data = () => {
 
@@ -73,7 +73,7 @@ const Data = () => {
     return (
         <div className="home__data">
             <h1 className="home__title">
-                {HomeText.title}
+                {HomeJSON.title}
                 <svg
                     width="36"
                     height="36"
@@ -124,8 +124,8 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">{HomeText.subtitle}{text}{isBlinking ? <span className="blinking-cursor">|</span> : <span>|</span>}</h3>
-            <p className="home__description">{HomeText.description}</p>
+            <h3 className="home__subtitle">{HomeJSON.subtitle}{text}{isBlinking ? <span className="blinking-cursor">|</span> : <span>|</span>}</h3>
+            <p className="home__description">{HomeJSON.description}</p>
             <a href="#contact" className="button button__flex">
                 Say Hello
                 <svg
