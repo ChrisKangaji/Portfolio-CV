@@ -1,9 +1,5 @@
 import './App.css';
-import Header from './components/header/Header';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Services from './components/services/Services';
+import { Header, Home, About, Skills, Services, Qualification } from './imports';
 
 function App() {
 return (
@@ -15,6 +11,7 @@ return (
         <About />
         <Skills />
         <Services />
+        <Qualification />
       </main>
     </>
   )
