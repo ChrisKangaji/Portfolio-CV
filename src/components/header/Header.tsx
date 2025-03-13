@@ -43,9 +43,9 @@ const Header = () => {
                       </li>
 
                       <li className="nav__item">
-                          <a href="#portfolio" className="nav__link">
+                          <a href="#qualification" className="nav__link">
                               {/*This is the icon found in iconscout (scenery)*/}
-                              <i className="uil uil-scenery nav__icon"></i> Portfolio
+                              <i className="bx bx-bookmarks nav__icon"></i> Qualification
                           </a>
                       </li>
 

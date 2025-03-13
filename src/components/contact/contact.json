@@ -1,0 +1,35 @@
+{
+    "contact": {
+        "title": "Get in touch",
+        "subtitle": "Contact me",
+        "writeMe": "Write me"
+    },
+    "contactMethod": {
+        "title": "Talk to me",
+        "email": {
+            "title": "Email",
+            "example": "user@gmail.com",
+            "api": "mailto:christian.kangaji@live.se"
+        },
+        "telephone": {
+            "title": "Whatsapp",
+            "example": "999-888-777",
+            "api": "https://api.whatsapp.com/send?phone=46737174499&text=Hello, let's start a conversation!"
+        },
+        "messenger": {
+            "title": "Messenger",
+            "example": "user.fb123",
+            "api": "https://m.me/ChrisKangaji"
+        }
+    },
+    "contactForm": {
+        "title": "Write me your project",
+        "nameLabel": "Name",
+        "namePlaceHolder": "Insert your name",
+        "emailLabel": "Email",
+        "emailPlaceHolder": "Insert your email",
+        "projectLabel": "Project",
+        "projectPlaceHolder": "Write your project",
+        "sendButton": "Send Message"
+    }
+}

@@ -11,7 +11,7 @@ const Qualification = () => {
     }
 
     return (
-        <section className="section qualification">
+        <section className="section qualification" id="qualification">
             <h2 className="section__title">{QualificationJSON.Qualification.title}</h2>
             <span className="section__subtitle">{QualificationJSON.Qualification.subtitle}</span>
 

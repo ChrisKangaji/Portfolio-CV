@@ -1,5 +1,5 @@
 import './App.css';
-import { Header, Home, About, Skills, Services, Qualification } from './imports';
+import { Header, Home, About, Skills, Services, Qualification, Contact } from './imports';
 
 function App() {
 return (
@@ -12,6 +12,7 @@ return (
         <Skills />
         <Services />
         <Qualification />
+        <Contact />
       </main>
     </>
   )
