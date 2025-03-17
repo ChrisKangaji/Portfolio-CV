@@ -42,7 +42,7 @@ const Qualification = () => {
                                 </div>
                             </div>
                             {/* Rounder and line set last based on number of data */}
-                            <div>
+                            <div className='qualification__rounder-data'>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
@@ -52,7 +52,7 @@ const Qualification = () => {
                         <div className="qualification__data">
                             {/* Rounder and line set first based on number of data */}
                             <div></div>
-                            <div>
+                            <div className='qualification__rounder-data'>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>

@@ -141,6 +141,35 @@
 
 /* For small devices */
 @media screen and (max-width: 576px) {
+    /* .services__modal-content {
+        padding: 4.5rem 1.5rem 2.5rem;
+        margin: 4.5rem 1.5rem 2.5rem;
+    } */
+
+    .services__modal-content {
+        width: 90%; /* Take up 90% of the screen width */
+        max-width: none; /* Remove the maximum width restriction */
+        padding: 0.75rem 0.32rem; /* Reduce padding for smaller screens */
+        margin: 0; /* Remove extra margins */
+    }
+
+    .services__modal-close {
+        top: 0.5rem;
+        right: 1rem;
+    }
+
+    .services__modal-description {
+        padding: 0;
+    }
+
+    .services__container {
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
     .services__modal-content {
         padding: 4.5rem 1.5rem 2.5rem;
         margin: 4.5rem 1.5rem 2.5rem;
@@ -149,15 +178,32 @@
     .services__modal-description {
         padding: 0;
     }
+
+    .services__container {
+        grid-template-columns: 1fr;
+        row-gap: 1.5rem;
+    }
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
     .services__container {
         grid-template-columns: max-content;
     }
 
     .services__content {
         padding-right: 6rem;
+    }
+
+    .services__modal-content {
+        width: 90%; /* Take up 90% of the screen width */
+        max-width: none; /* Remove the maximum width restriction */
+        padding: 0.75rem 0.32rem; /* Reduce padding for smaller screens */
+        margin: 0; /* Remove extra margins */
+    }
+
+    .services__modal-close {
+        top: 0.5rem;
+        right: 1rem;
     }
 }

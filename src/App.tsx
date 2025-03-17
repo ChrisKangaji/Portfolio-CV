@@ -1,8 +1,8 @@
 import './App.css';
-import { Header, Home, About, Skills, Services, Qualification, Contact } from './imports';
+import { Header, Home, About, Skills, Services, Qualification, Contact, Footer, ScrollUp } from './imports';
 
 function App() {
-return (
+  return (
     <>
       <Header />
 
@@ -14,6 +14,9 @@ return (
         <Qualification />
         <Contact />
       </main>
+
+      <Footer />
+      <ScrollUp />
     </>
   )
 }
