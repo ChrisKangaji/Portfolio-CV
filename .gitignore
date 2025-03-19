@@ -26,3 +26,7 @@ dist-ssr
 .vs
 bin
 obj
+
+.firebase
+.firebaserc
+build
