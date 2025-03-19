@@ -1,6 +1,6 @@
 import './about.css';
 import AboutImg from '../../assets/ChrisKangaji_about.jpg';
-import CV from '../../assets/ChristianKangaji_Cv.pdf';
+import CV from '../../assets/Christian_Kangaji_CV.pdf';
 import Info from './Info';
 import AboutJSON from './about.json';
 

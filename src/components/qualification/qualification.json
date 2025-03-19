@@ -1,28 +1,42 @@
 {
     "Qualification": {
         "title": "Qualifications",
+        "educationTitle": "Education",
+        "employmentTitle": "Employment",
         "subtitle": "My personal journey"
     },
-    "Education": [{
-        "degree": "Senior High School",
-        "major": "Natural Science Program",
-        "school": "Bromma Gymnasium, Stocholm",
-        "graduation": "2009 - 2012"
-    }, {
-        "degree": "Bachelor of Technology",
-        "major": "Computer Engineering: Software Development and Mobile Platforms",
-        "school": "Jönköping School of Engineering, Jönköping",
-        "graduation": "2014 - 2018"
-    }],
-    "work": [{
-        "company": "Fellowmind Sweden AB (prev. Endeavor AB)",
-        "role": "Software Developer",
-        "description": "Worked within several teams and projects, developing and konfiguring solutions within Dynamics 365 for clients.",
-        "period": "2018 - 2025"
-    }, {
-        "company": "SOS Alarm Sverige AB",
-        "role": "Software Developer",
-        "description": "Developing and konfiguring software solutions.",
-        "period": "2025 - present"
-    }]
+    "Education": [
+        {
+            "degree": "Senior High School",
+            "major": "Natural Science Program",
+            "school": "Bromma Gymnasium, Stocholm",
+            "graduation": "2009 - 2012"
+        },
+        {
+            "degree": "Bachelor of Technology",
+            "major": "Computer Engineering: Software Development and Mobile Platforms",
+            "school": "Jönköping School of Engineering, Jönköping",
+            "graduation": "2014 - 2018"
+        }
+    ],
+    "work": [
+        {
+            "company": "Science Park Jönköping",
+            "role": "Software Developer Consultant Intern, Jönköping Sweden",
+            "description": "Worked within several teams and projects, developing and konfiguring solutions for clients.",
+            "period": "2017 - 2017"
+        },
+        {
+            "company": "Fellowmind Sweden AB (prev. Endeavor AB)",
+            "role": "Software Developer Consultant, Stockholm Sweden",
+            "description": "Worked within several teams and projects, developing and konfiguring solutions within Dynamics 365 for clients.",
+            "period": "2018 - 2025"
+        },
+        {
+            "company": "SOS Alarm Sverige AB",
+            "role": "Software Developer, Stockholm Sweden",
+            "description": "Developing and konfiguring software solutions.",
+            "period": "2025 - present"
+        }
+    ]
 }

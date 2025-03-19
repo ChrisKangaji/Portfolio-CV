@@ -1,7 +1,7 @@
 {
     "skills": {
         "title": "Skills",
-        "subtitle": "My technical level"
+        "subtitle": "Some of the technologies I've worked with"
     },
     "skillsLevel": {
         "basic": "Basic",
@@ -18,20 +18,23 @@
             "msPP": "MS Power Platform",
             "html5": "HTML5",
             "liquid": "Liquid",
-            "bootstrap": "Bootstrap"
+            "bootstrap": "Bootstrap",
+            "dynamics365": "Microsoft Dynamics 365"
         }
     },
     "backEnd": {
         "title": "Backend Developer",
         "skills": {
-            "cSharp": "C#/.NET",
+            "cSharp": "C#",
             "java": "Java",
             "python": "Python",
             "azure": "MS Azure",
-            "sql": "MySQL",
+            "sql": "MS SQL Server",
             "restApi": "RESTful APIs",
             "devOps": "DevOps",
-            "firebase": "Firebase"
+            "firebase": "Firebase",
+            "netCore": ".NET Core",
+            "netFramework": ".NET Framework"
         }
     }
 }

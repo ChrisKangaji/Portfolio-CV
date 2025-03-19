@@ -13,7 +13,22 @@ const Contact = () => {
 
     const sendEmail = (e: any) => {
         e.preventDefault();
-        setIsSending(true); // Set sending status to true
+
+        // Validate form fields
+        if (!form.current) return;
+
+        const formData = new FormData(form.current);
+        const name = formData.get('name')?.toString().trim();
+        const email = formData.get('email')?.toString().trim();
+        const project = formData.get('project')?.toString().trim();
+
+        if (!name || !email || !project) {
+            setAlertMessage('Please fill in all the required fields.');
+            return;
+        }
+
+        // Set sending status to true
+        setIsSending(true);
 
         emailjs
             .sendForm(EmailConfigJSON.SERVICE_ID, EmailConfigJSON.TEMPLATE_ID, form.current, {

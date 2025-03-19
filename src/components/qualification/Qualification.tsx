@@ -18,11 +18,11 @@ const Qualification = () => {
             <div className="qualification__container container">
                 <div className="qualification__tabs">
                     <div className={toggleContainerlState === 1 ? "qualification__button button--flex qualification__active" : "qualification__button button--flex"} onClick={() => toggleContainer(1)}>
-                        <i className="uil uil-graduation-cap qualification__icon"></i> Education
+                        <i className="uil uil-graduation-cap qualification__icon"></i> {QualificationJSON.Qualification.educationTitle}
                     </div>
 
                     <div className={toggleContainerlState === 2 ? "qualification__button button--flex qualification__active" : "qualification__button button--flex"} onClick={() => toggleContainer(2)}>
-                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experience
+                        <i className="uil uil-briefcase-alt qualification__icon"></i> {QualificationJSON.Qualification.employmentTitle}
                     </div>
                 </div>
 
@@ -83,6 +83,21 @@ const Qualification = () => {
 
                             <div>
                                 <h3 className="qualification__title">
+                                    {QualificationJSON.work[2].company}
+                                </h3>
+                                <span className="qualification__subtitle">
+                                    {QualificationJSON.work[2].role}
+                                </span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                    {QualificationJSON.work[2].period}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">
                                     {QualificationJSON.work[1].company}
                                 </h3>
                                 <span className="qualification__subtitle">
@@ -93,9 +108,21 @@ const Qualification = () => {
                                     {QualificationJSON.work[1].period}
                                 </div>
                             </div>
+                            {/* Rounder and line set last based on number of data */}
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
                         </div>
 
                         <div className="qualification__data">
+                            {/* Rounder and line set last based on number of data */}
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
                             <div>
                                 <h3 className="qualification__title">
                                     {QualificationJSON.work[0].company}
@@ -107,11 +134,6 @@ const Qualification = () => {
                                     <i className="uil uil-calendar-alt qualification__calendar-icon"></i>
                                     {QualificationJSON.work[0].period}
                                 </div>
-                            </div>
-                            {/* Rounder and line set last based on number of data */}
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
                             </div>
                         </div>
                     </div>

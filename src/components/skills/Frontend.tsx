@@ -43,7 +43,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.msPP}</h3>
-                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.advanced}</span>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const Frontend = () => {
 
                         <div>
                             <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.liquid}</h3>
-                            <span className="skills__level">{SkillsJSON.skillsLevel.basic}</span>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
                         </div>
                     </div>
 
@@ -82,6 +82,15 @@ const Frontend = () => {
                         <div>
                             <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.bootstrap}</h3>
                             <span className="skills__level">{SkillsJSON.skillsLevel.intermediate}</span>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className='bx bx-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">{SkillsJSON.frontEnd.skillsName.dynamics365}</h3>
+                            <span className="skills__level">{SkillsJSON.skillsLevel.advanced}</span>
                         </div>
                     </div>
                 </div>
