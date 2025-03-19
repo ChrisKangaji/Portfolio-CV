@@ -23,7 +23,7 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href={HomeJSON.linkedInLink} className="footer__social-icon" target="_blank">
+                    <a href={HomeJSON.instagramLink} className="footer__social-icon" target="_blank">
                         <i className="bx bxl-instagram-alt"></i>
                     </a>
 
