@@ -20,9 +20,9 @@ const Contact = () => {
         const formData = new FormData(form.current);
         const name = formData.get('name')?.toString().trim();
         const email = formData.get('email')?.toString().trim();
-        const project = formData.get('project')?.toString().trim();
+        const message = formData.get('message')?.toString().trim();
 
-        if (!name || !email || !project) {
+        if (!name || !email || !message) {
             setAlertMessage('Please fill in all the required fields.');
             return;
         }
@@ -121,13 +121,13 @@ const Contact = () => {
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-label">{ContactJSON.contactForm.projectLabel}</label>
+                            <label className="contact__form-label">{ContactJSON.contactForm.messageLabel}</label>
                             <textarea
-                                name='project'
+                                name='message'
                                 cols={30}
                                 rows={10}
                                 className='contact__form-input'
-                                placeholder={ContactJSON.contactForm.projectPlaceHolder}></textarea>
+                                placeholder={ContactJSON.contactForm.messagePlaceHolder}></textarea>
                         </div>
 
                         <button className="button button__flex" disabled={isSending}>

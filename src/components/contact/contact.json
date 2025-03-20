@@ -23,13 +23,13 @@
         }
     },
     "contactForm": {
-        "title": "Write me your project",
+        "title": "Drop me a message",
         "nameLabel": "Name",
         "namePlaceHolder": "Insert your name",
         "emailLabel": "Email",
         "emailPlaceHolder": "Insert your email",
-        "projectLabel": "Project",
-        "projectPlaceHolder": "Write your project",
+        "messageLabel": "Message",
+        "messagePlaceHolder": "Write your Message",
         "sendButton": "Send Message"
     }
 }
