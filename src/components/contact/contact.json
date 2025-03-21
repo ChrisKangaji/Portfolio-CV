@@ -29,7 +29,7 @@
         "emailLabel": "Email",
         "emailPlaceHolder": "Insert your email",
         "messageLabel": "Message",
-        "messagePlaceHolder": "Write your Message",
+        "messagePlaceHolder": "Write your message",
         "sendButton": "Send Message"
     }
 }
